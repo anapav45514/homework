@@ -1,7 +1,9 @@
 @charset "UTF-8";
 body {
+  position: relative;
   font-family: Montserrat, sans-serif; /* Тип шрифта */
   letter-spacing: 1px; /* Отступ между символами */
+  background-image: url(img/back.gif);
 }
 .header {
   display: flex;
@@ -9,13 +11,11 @@ body {
   justify-content: center;
   align-content: center;
   color: rgba(255, 221, 0, 0.946);
-  background-image: url(img/back.gif);
 }
 .main {
   display: flex;
   flex-flow: column wrap;
   flex: 1 0 auto;
-  background-image: url(img/back.gif);
 }
 .menu-main {
   display: flex;
