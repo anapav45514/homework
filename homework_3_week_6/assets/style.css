@@ -1,0 +1,73 @@
+.body {
+  font-family: Chronicle Display, sans-serif; /* Тип шрифта */
+  color: var(--wei, #FFF);
+  background-color: rgb(94, 117, 165);
+}
+.header,main { 
+  display: grid;
+  grid-template-columns: 250px 1fr 250px;
+  align-items: center;
+  justify-items: stretch;
+}
+header{
+  height: 20vh;
+}
+main {
+  height: 80vh;
+}
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+a {
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #ffffff;
+  font-size: 14px; /* Размер шрифта */
+  padding: 5px;
+}
+a:hover {
+  font-weight: bolder; /* Выделение жирным шрифтом при наведении на ссылки */
+}
+.logo {
+font-family: Chronicle Display;
+font-size: 32px;
+font-weight: 700;
+letter-spacing: 0.32px;
+text-transform: capitalize;
+}
+.title1 {
+  color: var(--accent, #FBD784);
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 800;
+letter-spacing: 6px;
+text-transform: uppercase;
+  }
+.title2 {
+font-family: Chronicle Display;
+font-size: 88px;
+font-weight: 600;
+line-height: 100px; /* 113.636% */
+text-transform: capitalize;
+}
+.title3 {
+font-family: Gilroy;
+font-size: 18px;
+font-weight: 700;
+  }
+
+.contacts {
+border: 1px solid yellow;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  align-items: stretch;
+  justify-items: start;
+  padding: 15px;
+}
+.follow {
+  padding: 7px;
+  writing-mode: vertical-rl;
+}
+
