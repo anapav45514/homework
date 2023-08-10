@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Chronicle Display";  
+  src: url("fonts/Chronicle\ Display\ Black.otf") format("truetype"); 
+  font-style: normal;
+  }
+  h1 {
+  font-size: 4vw;
+  text-transform: capitalize;
+  }
+  h2 {
+    font-size: 4vw;
+    line-height: 6vw;
+    text-transform: capitalize;
+  }
+  h3 {
+    color: var(--accent, #FBD784);
+    font-size: 2vw;
+    text-transform: uppercase;
+  }
+
+              /* MAIN PAGE */
+.container-1 {
+  font-family: Chronicle Display, sans-serif; /* Тип шрифта */
+  color: white;
+  font-size: 1.5vw;
+  font-style: normal;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(255, 255, 255, 0.5) ), url(img/mntn.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header { 
+  display: flex;
+  flex-direction: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 5%;
+  }
+
+.nav2 {
+  margin-right: 5%;
+}
+a {
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #ffffff;
+  font-size: 1.7vw; /* Размер шрифта */
+  padding: 5px;
+}
+a:hover {
+  font-weight: 900; /* Выделение жирным шрифтом при наведении на ссылки */
+  color: rgb(11, 202, 245); /* Смена цвета при наведении на ссылки */
+}
+
+.page-1 {
+  display: flex;
+  flex-direction: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.title1 {
+  padding: 0 15% 0 15% ;
+}
+
+.title2 {
+  padding: 0 15% 0 15% ;
+}
+
+.title3 {
+  padding: 0 15% 0 15% ;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15% 5% 0 5% ;
+  font-size: 2vw;
+
+}
+
+.contacts > div {
+  writing-mode: vertical-rl;
+}
+
+.scroll{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 5% 5% 0 5% ;
+}
+
+              /* SECOND PAGE */
+
+.container-2 {
+font-family: Chronicle Display, sans-serif; /* Тип шрифта */
+color: white;
+font-size: 1.5vw;
+font-style: normal;
+
+border: 2px solid black;
+width: 70%;
+}
+
+img {
+  height: 40vw;
+  padding: 2vw;
+}
+
+.page-2 {
+margin: 30vw 10vw 0vw 10vw;
+}
+.article-1 {
+display: flex;
+flex-direction: row nowrap;
+margin: 5vw 0vw 5vw 0vw;
+}
+.article-2 {
+  
+display: flex;
+flex-direction: row nowrap;
+margin: 5vw 0vw 5vw 0vw;
+}
+
+.article-3 {
+display: flex;
+flex-direction: row nowrap;
+margin: 5vw 0vw 5vw 0vw;
+}
+
+
+
