@@ -1,0 +1,456 @@
+@font-face {
+  font-family: "Intro";
+  src: local("Intro"),
+    url("/week_8/homework_3_week_8/assets/fonts/IntroDemo-BlackCAPS.otf");
+}
+@font-face {
+  font-family: "RobotoSlabs";
+  src: local("RobotoSlabs"),
+    url("/week_8/homework_3_week_8/assets/fonts/RobotoSlab.ttf");
+}
+@media screen and (min-width: 1024px) {
+  /* стили для мониторов */
+
+  /* COMMON STYLE */
+  h1 {
+    color: black;
+    font-family: Intro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 72px */
+  }
+  p {
+    color: black;
+    font-family: "RobotoSlab";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 32px */
+  }
+
+  .nav-top {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Intro";
+    margin: 15px 15px 15px 15px;
+
+    .nav-top-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-family: "Intro";
+      font-size: 1rem;
+      color: white;
+      border-radius: 100px;
+      background-color: rgba(82, 34, 208, 1);
+    }
+  }
+
+  .footer-nav {
+    font-family: "RobotoSlabs";
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    margin-top: 200px;
+    margin-left: 20px;
+
+    .footer-nav-link {
+      padding-right: 25px;
+      font-size: 1rem;
+      color: blueviolet;
+      text-decoration: none;
+    }
+  }
+  /* FIRST-PAGE VR */
+  .container-1 {
+    background: url(/week_8/homework_3_week_8/assets/img/main_img.png);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 150px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    .main-img {
+      padding-left: 100px;
+    }
+    .main-article {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .main-article-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-family: "Intro";
+      font-size: 1em;
+      color: white;
+      border-radius: 100px;
+      background-color: rgba(82, 34, 208, 1);
+    }
+  }
+
+  /* SECOND-PAGE VR-MAIN */
+  .container-2 {
+    .footer-nav {
+      margin-top: 50px;
+      margin-left: 20px;
+
+      .footer-nav-link {
+        color: black;
+      }
+    }
+  }
+  .ability-page {
+    display: flex;
+    flex-direction: column;
+
+    .ability-page-boxes {
+      display: grid;
+      grid-gap: 5px;
+      grid-template-columns: 30vw 30vw 30vw;
+    }
+    .ability-page-boxes-box {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      margin-top: 30px;
+    }
+    .ability-page-boxes-box-news {
+      background-color: rgba(236, 97, 91, 1);
+      padding: 15px;
+
+      .ability-page-boxes-box-news-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 20px;
+
+        font-family: "Intro";
+        font-size: 1em;
+        color: white;
+        border-radius: 100px;
+        background-color: rgba(82, 34, 208, 1);
+      }
+    }
+    .ability-page-boxes-box-title {
+      font-size: 1.5rem;
+    }
+    .ability-page-boxes-box-text {
+      font-size: 1rem;
+    }
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 1023px) {
+  /* стили для планшета */
+
+  /* COMMON STYLE */
+  h1 {
+    color: black;
+    font-family: Intro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 72px */
+  }
+  p {
+    color: black;
+    font-family: "RobotoSlab";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 32px */
+  }
+
+  .nav-top {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Intro";
+    margin: 15px 15px 15px 15px;
+
+    .nav-top-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-family: "Intro";
+      font-size: 1rem;
+      color: white;
+      border-radius: 100px;
+      background-color: rgba(82, 34, 208, 1);
+    }
+  }
+
+  .footer-nav {
+    font-family: "RobotoSlabs";
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+    margin-top: 150px;
+    margin-left: 20px;
+
+    .footer-nav-link {
+      padding-right: 25px;
+      font-size: 1rem;
+      color: blueviolet;
+      text-decoration: none;
+    }
+    .footer-nav-link-main {
+      padding-right: 25px;
+      font-family: "RobotoSlabs";
+      font-size: 1rem;
+      color: rgb(247, 247, 247);
+      text-decoration: none;
+    }
+  }
+  /* FIRST-PAGE VR */
+  .container-1 {
+    background: url(/week_8/homework_3_week_8/assets/img/main_img.png);
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 100px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    .main-img {
+      padding-left: 100px;
+    }
+    .main-article {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .main-article-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-family: "Intro";
+      font-size: 1em;
+      color: white;
+      border-radius: 100px;
+      background-color: rgba(82, 34, 208, 1);
+    }
+  }
+
+  /* SECOND-PAGE VR-MAIN */
+  .container-2 {
+    .footer-nav {
+      margin-top: 50px;
+      margin-left: 20px;
+
+      .footer-nav-link {
+        color: black;
+      }
+    }
+  }
+  .ability-page {
+    display: flex;
+    flex-direction: column;
+
+    .ability-page-boxes {
+      display: grid;
+      grid-gap: 5px;
+      grid-template-columns: 30vw 30vw 30vw;
+
+      .ability-page-boxes-box {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 30px;
+        
+        .ability-page-boxes-box-title {
+          font-size: 1.5rem;
+        }
+        .ability-page-boxes-box-text {
+          font-size: 1rem;
+        }
+        .ability-page-boxes-box-news {
+          background-color: rgba(236, 97, 91, 1);
+          padding: 15px;
+
+          .ability-page-boxes-box-news-button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+    
+            margin-top: 20px;
+    
+            font-family: "Intro";
+            font-size: 1em;
+            color: white;
+            border-radius: 100px;
+            background-color: rgba(82, 34, 208, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+@media screen and (max-width: 399px) {
+  /* стили для смартфона */
+
+  /* COMMON STYLE */
+  h1 {
+    color: black;
+    font-family: Intro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 72px */
+  }
+  p {
+    color: black;
+    font-family: "RobotoSlab";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 32px */
+  }
+
+  .nav-top {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Intro";
+    margin: 15px 15px 15px 15px;
+
+    .nav-top-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-family: "Intro";
+      font-size: 0.5rem;
+      color: white;
+      border-radius: 100px;
+      background-color: rgba(82, 34, 208, 1);
+    }
+  }
+
+  .footer-nav {
+    font-family: "RobotoSlabs";
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    .footer-nav-link {
+      padding-right: 10px;
+      font-size: 10px;
+      color: blueviolet;
+      text-decoration: none;
+    }
+    .footer-nav-link-main {
+      padding-right: 25px;
+      font-family: "RobotoSlabs";
+      font-size: 1rem;
+      color: rgb(247, 247, 247);
+      text-decoration: none;
+    }
+  }
+  /* FIRST-PAGE VR */
+  .container-1 {
+    background: url(/week_8/homework_3_week_8/assets/img/main_img.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: 200px;
+    background-position-y: 100px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+
+    .main-img {
+      padding-left: 100px;
+    }
+    .main-article {
+      margin-top: 0px;
+      margin-left: 20px;
+    }
+    .main-article-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-family: "Intro";
+      font-size: 0.5rem;
+      color: white;
+      border-radius: 100px;
+      background-color: rgba(82, 34, 208, 1);
+    }
+  }
+
+  /* SECOND-PAGE VR-MAIN */
+  .container-2 {
+    width: 70vw;
+    
+    .footer-nav {
+      margin-top: 50px;
+      margin-left: 20px;
+
+      .footer-nav-link {
+        color: black;
+      }
+    }
+  }
+  .ability-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .ability-page-boxes {
+
+      .ability-page-boxes-box {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 10px;
+        
+        .ability-page-boxes-box-title {
+          font-size: 1.5rem;
+        }
+        .ability-page-boxes-box-text {
+          font-size: 1rem;
+        }
+        .ability-page-boxes-box-news {
+          background-color: rgba(236, 97, 91, 1);
+          padding: 15px;
+
+          .ability-page-boxes-box-news-button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+    
+            margin-top: 20px;
+    
+            font-family: "Intro";
+            font-size: 1em;
+            color: white;
+            border-radius: 100px;
+            background-color: rgba(82, 34, 208, 1);
+            }
+        }
+        
+      }
+    }
+  }
+}
