@@ -1,12 +1,11 @@
 @font-face {
   font-family: "Intro";
-  src: local("Intro"),
-    url("/week_8/homework_3_week_8/assets/fonts/IntroDemo-BlackCAPS.otf");
+  src: url("fonts/IntroDemo-BlackCAPS.otf") format("truetype");
 }
 @font-face {
+
   font-family: "RobotoSlabs";
-  src: local("RobotoSlabs"),
-    url("/week_8/homework_3_week_8/assets/fonts/RobotoSlab.ttf");
+  src: url("fonts/RobotoSlab.ttf") format("truetype");
 }
 @media screen and (min-width: 1024px) {
   /* стили для мониторов */

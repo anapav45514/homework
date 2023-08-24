@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <title>VR</title>
-  </head>
-  <body class="container-1">
-    <nav class="nav-top">
-      <svg
+<svg
         width="201"
         height="40"
         viewBox="0 0 201 40"
@@ -52,58 +42,3 @@
           fill="black"
         />
       </svg>
-
-      <button class="nav-top-button" href="">
-        КОРЗИНА&nbsp&nbsp&nbsp
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="14"
-          height="14"
-          viewBox="0 0 14 14"
-          fill="none"
-        >
-          <circle cx="7" cy="5" r="4" stroke="white" stroke-width="2" />
-          <path
-            d="M2.60163 13.25L0.934962 5.75H13.065L11.3984 13.25H2.60163Z"
-            fill="white"
-            stroke="white"
-            stroke-width="1.5"
-          />
-        </svg>
-      </button>
-    </nav>
-    <main class="main">
-      <article class="main-article">
-        <h1>ВИРТУАЛЬНАЯ РЕАЛЬНОСТЬ БЕЗ ПРОВОДОВ</h1>
-        <p class="main-article-text">
-          Лучшее, что случалось с виртуальным миром в реальности. Новый
-          компактный шлем без проводов и дорогих комьютеров.
-        </p>
-        <button class="main-article-button" href="">
-          КУПИТЬ&nbsp&nbsp&nbsp
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="30%"
-            height="30"
-            viewBox="0 0 43 30"
-            fill="none"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M2.4375 0.5625C1.33293 0.5625 0.4375 1.45793 0.4375 2.5625V27.306C0.4375 28.4105 1.33293 29.306 2.4375 29.306H40.1619C41.2664 29.306 42.1619 28.4105 42.1619 27.306V12.6162H0.437541V7.05295H42.1619V2.5625C42.1619 1.45793 41.2664 0.5625 40.1619 0.5625H2.4375Z"
-              fill="white"
-            />
-          </svg>
-        </button>
-      </article>
-
-    </main>
-    <footer class="footer-nav">
-      <a class="footer-nav-link">Возможности</a>
-      <a class="footer-nav-link" href="">Где купить</a>
-      <a class="footer-nav-link" href="">Доставка</a>
-      <a class="footer-nav-link" href="">Помощь</a>
-    </footer>
-  </body>
-</html>
