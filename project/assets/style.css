@@ -64,6 +64,13 @@ p {
       margin-top: 10px;
       display: flex;
       flex-direction: column;
+
+      color: white;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px; /* 171.429% */
+      letter-spacing: 0.42px;
+      text-decoration: none; /* Убираем подчёркивание */
     }
   }
   .footer-contacts {
@@ -91,10 +98,6 @@ p {
 
 /* MAIN-PAGE */
 .page-main {
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
-  justify-content: space-between;
 }
 
 /* GALLERY-PAGE */
