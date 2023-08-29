@@ -2,53 +2,91 @@
   font-family: "Roboto";
   src: url("fonts/Roboto-Regular.ttf") format("truetype");
 }
-  /* COMMON STYLE */
-  h1 {
-    color: var(--gray-4, #bdbdbd);
-    font-family: "Roboto";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 64px; /* 100% */
+/* COMMON STYLE */
+h1 {
+  color: var(--gray-4, #bdbdbd);
+  font-family: "Roboto";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 64px; /* 100% */
+}
+h2 {
+  color: var(--gray-1, #333);
+  font-family: "Roboto";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 100% */
+}
+p {
+  color: #000;
+  font-family: "RobotoSlabs";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px; /* 156.25% */
+}
+.nav {
+}
+.footer {
+  background: #2c2c2c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5vw;
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  .footer-info {
+    .footer-info-link {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    }
   }
-  h2 {
-    color: var(--gray-1, #333);
-    font-family: "Roboto";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 64px; /* 100% */
-  }
-  p {
-    color: #000;
-    font-family: "RobotoSlabs";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 25px; /* 156.25% */
-  }
-  .nav {
-  }
-  .footer {
-  }
+  .footer-contacts {
+    display: flex;
+    flex-direction: column;
 
-  /* MAIN-PAGE */
-  .page-main {
+    .footer-contacts-link {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+      .footer-contacts-link-p {
+        margin-left: 10px;
+        color: white;
+      }
+    }
   }
-
-  /* GALLERY-PAGE */
-  .page-gallery {
+  .footer-social {
+    .footer-social-link {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+    }
   }
+}
 
-  /* PROJECT-PAGE */
-  .page-gallery {
-  }
+/* MAIN-PAGE */
+.page-main {
+}
 
-  /* CERTIFICATIONS-PAGE */
-  .page-gallery {
-  }
+/* GALLERY-PAGE */
+.page-gallery {
+}
 
-  /* CONTACTS-PAGE */
-  .page-gallery {
-  }
+/* PROJECT-PAGE */
+.page-gallery {
+}
 
+/* CERTIFICATIONS-PAGE */
+.page-gallery {
+}
+
+/* CONTACTS-PAGE */
+.page-gallery {
+}
