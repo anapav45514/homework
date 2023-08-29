@@ -28,6 +28,24 @@ p {
   line-height: 25px; /* 156.25% */
 }
 .nav {
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .nav-link {
+    color: var(--gray-1, #333);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 100% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-decoration: none; /* Убираем подчёркивание */
+  }
+  a:hover {
+    font-weight: bolder; /* Выделение жирным шрифтом при наведении на ссылки */
+  }
 }
 .footer {
   background: #2c2c2c;
@@ -43,9 +61,9 @@ p {
   line-height: normal;
   .footer-info {
     .footer-info-link {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
     }
   }
   .footer-contacts {
@@ -53,9 +71,9 @@ p {
     flex-direction: column;
 
     .footer-contacts-link {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
       .footer-contacts-link-p {
         margin-left: 10px;
         color: white;
@@ -73,6 +91,10 @@ p {
 
 /* MAIN-PAGE */
 .page-main {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-between;
 }
 
 /* GALLERY-PAGE */
