@@ -33,6 +33,8 @@ p {
   flex-direction: row;
   justify-content: space-between;
   .nav-link {
+    position: relative;
+    padding: 0 10px;
     color: var(--gray-1, #333);
     font-family: Roboto;
     font-size: 12px;
@@ -43,8 +45,30 @@ p {
     text-transform: uppercase;
     text-decoration: none; /* Убираем подчёркивание */
   }
-  a:hover {
-    font-weight: bolder; /* Выделение жирным шрифтом при наведении на ссылки */
+  /*При наведении добавляются линии над и под ссылкой*/
+  .nav-link:before,
+  .nav-link:after {
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    width: 0;
+    background-color: #000;
+    transition: 0.3s;
+  }
+  .nav-link:after {
+    left: 0;
+    bottom: 15px;
+  }
+  .nav-link:before {
+    right: 0;
+    top: -15px;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .nav-link:hover:after,
+  .nav-link:hover:before {
+    width: 100%;
   }
 }
 .footer {
@@ -92,6 +116,9 @@ p {
       margin-top: 10px;
       display: flex;
       flex-direction: row;
+      .footer-social-link-img{
+        padding-right: 10px;
+      }
     }
   }
 }
