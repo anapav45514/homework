@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор ИМТ</title>
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body class="page">
+    <main class="main">
+      <h1>Калькулятор ИМТ</h1>
+      <div class="main-calc">
+        <label for="weightInput">Вес (кг)</label>
+        <input class="main-calc__input" id="weightInput" type="number" />
+        <label for="heightInput">Рост (см)</label>
+        <input class="main-calc__input" id="heightInput" type="number" />
+      </div>
+      <button class="main__button" id="button" onclick="calculateBMI()">Рассчитать ИМТ</button>
+      <div id="result"></div>
+    </main>
+    <script src="week12.js"></script>
+  </body>
+</html>

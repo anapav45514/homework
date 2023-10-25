@@ -125,6 +125,13 @@ p {
 
 /* MAIN-PAGE */
 .main {
+
+  .main-1-form{
+    width: 30vw;
+    .main-1-img{
+      width: 60vw;
+    }
+  }
 }
 
 /* GALLERY-PAGE */

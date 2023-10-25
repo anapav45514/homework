@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Корзина</title>
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body class="page">
+    <main class="main">
+      <h1>Корзина</h1>
+
+      <div class="item">
+        <div class="item-box">
+          <img
+            class="item-picture"
+            src="/week11/Week11_homework_3/assets/img/JONES_Mind_Expander.jpeg"
+            alt="JONES_Mind_Expander"
+          />
+          <div>
+            <h2>Сноуборд JONES Mind Expander 2023-24</h2>
+            <p>Цвет: Белый/Черный</p>
+            <p>Размер: 154 см</p>
+            <p>Количество: 1</p>
+          </div>
+        </div>
+        <p class="price" id="price1"> 73150 ₽
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-box">
+          <img
+            class="item-picture"
+            src="/week11/Week11_homework_3/assets/img/NOW_Drive.jpeg"
+            alt="NOW_Drive"
+          />
+          <div>
+            <h2>Крепления для сноуборда NOW NOW Drive Cx Black 2023-24</h2>
+            <p>Цвет: Черный</p>
+            <p>Размер: M</p>
+            <p>Количество: 1</p>
+          </div>
+        </div>
+        <p class="price" id="price2">80690 ₽
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-box">
+          <img
+            class="item-picture"
+            src="/week11/Week11_homework_3/assets/img/DEELUXE_ID.jpeg"
+            alt="DEELUXE_ID"
+          />
+          <div>
+            <h2>Ботинки для сноуборда DEELUXE ID (FW24) ZANSETSU</h2>
+            <p>Цвет: Белый</p>
+            <p>Размер: M</p>
+            <p>Количество: 1</p>
+          </div>
+        </div>
+        <p class="price" id="price3">32950 ₽
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="item-box">
+          <img
+            class="item-picture"
+            src="/week11/Week11_homework_3/assets/img/PICTURE_ORGANIC_XENA_SUIT.jpeg"
+            alt="PICTURE_ORGANIC_XENA_SUIT"
+          />
+          <div>
+            <h2>Комбинезон сноубордический PICTURE ORGANIC XENA SUIT Shrub</h2>
+            <p>Цвет: Белый</p>
+            <p>Размер: M</p>
+            <p>Количество: 1</p>
+          </div>
+        </div>
+        <p class="price" id="price4">
+          37700 ₽
+        </p>
+      </div>
+
+      <div class="price_tab">
+        <button id="button" onclick="discount()">Использовать купон на 20%</button>
+        <div class="price_tab-final">
+          <p>ИТОГО:</p>
+          <p id="final_price" class="price"> ₽</p>
+        </div>
+      </div>
+
+    </main>
+    <script src="week11.js"></script>
+  </body>
+</html>

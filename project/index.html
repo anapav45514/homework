@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="stylesheet" href="assets/bootstrap.css">
     <link rel="stylesheet" href="assets/style.css" />
     <title>NURTOWN</title>
   </head>
@@ -17,31 +18,34 @@
       <a class="nav-link" href="contacts.html">CONTACTS</a>
     </nav>
     <main class="main-1">
-      <section class="page-main-1-section-1">
-        <h2>PROJECT</h2>
-        <h1>Lorum</h1>
-      </section>
-      <form class="">
-        <div>
-            <label for="name"></label>
-            <input type="text" id="name" placeholder="Name"/>
-        </div><br>
-        <div>
-            <label for="number"></label>
-            <input type="text" id="number" placeholder="Phone Number*"/>
-        </div><br>
-        <div>
-            <label for="mail"></label>
-            <input type="email" id="mail" placeholder="E-mail*"/>
-        </div><br>
-        <div>
-          <label for="interested"></label>
-          <input type="text" id="interested" placeholder="Interested In"/>
-      </div><br>
-        <div>
-          <textarea class="form-control" rows="5" id="comment" placeholder="Message*"></textarea></div> <br>
-        <div><button>SEND EMAIL <img src="assets/img/ico-shape.png" alt="arrow"></button></div><br>
+
+        <form class="main-1-form">
+          <h2>Contact Us</h2>
+          <div class="form-group">
+            <label for="Name"></label>
+            <input type="text" class="form-control" id="Name"  placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="Number"></label>
+            <input type="text" class="form-control" id="Number" placeholder="Phone Number*">
+          </div>
+          <div class="form-group">
+            <label for="Email"></label>
+            <input type="email" class="form-control" id="Email" placeholder="E-mail*">
+          </div>
+          <div class="form-group">
+            <label for="addText"></label>
+            <input type="text" class="form-control" id="addText" placeholder="Interested In">
+          </div>
+          <div class="form-group">
+            <label for="Textarea"></label>
+            <textarea class="form-control" id="Textarea" rows="3" placeholder="Message*"></textarea>
+          </div>
         </form>
+        <div class="main-1-img">
+          <img src="assets/img/image 12.png" alt="">
+        </div>
+        <button type="submit" class="btn btn-dark">SEND EMAIL <img src="assets/img/ico-shape.png" alt="arrow"></button>
     </main>
     <footer class="footer">
       <div class="footer-logo">

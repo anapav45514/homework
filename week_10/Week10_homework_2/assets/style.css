@@ -1,0 +1,31 @@
+h1 {
+    font-size: 2.5rem;
+}
+.main__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__img > img{
+    width: 70vw;
+    margin: 5vw;
+    height: auto;
+}
+.main__wrapper_button{
+    background-color: black;
+    box-shadow: 10px 5px 5px rgb(59, 59, 59);
+    padding: 15px;
+    margin: 15px;
+    width: 20vw;
+    border-radius: 10%;
+    color: white;
+}
+.main_button {
+    background-color: black;
+    box-shadow: 10px 5px 5px rgb(59, 59, 59);
+    padding: 15px;
+    width: 20vw;
+    border-radius: 10%;
+    color: white;
+}
+
