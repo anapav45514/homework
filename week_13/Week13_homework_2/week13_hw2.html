@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework3</title>
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body class="main-page">
+    <h1>Сервис комментариев со спам-фильтром</h1>
+    <main class="main-block">
+      <div class="main-block__comment-form">
+        <h2>Оставьте Ваш комментарий</h2>
+        <div class="main-block__checkbox">
+          <p>Показывать Ваше имя?</p>
+          <label for="chkYes">
+            Да
+            <input
+              type="radio"
+              id="chkYes"
+              name="checkbox"
+              value="yes"
+              onchange="showHideNameBox()"
+            />
+          </label>
+          <label for="chkNo">
+            Нет
+            <input
+              type="radio"
+              id="chkNo"
+              name="checkbox"
+              value="no"
+              onchange="showHideNameBox()"
+            />
+          </label>
+        </div>
+        <label id="nameForm" class="main-block__input-form" for="name"
+          >Введите Ваше Имя <br /><input id="name" type="text"
+        /></label>
+        <label class="main-block__input-form" for="link"
+          >Введите ссылку Вашего аватара<br /><input id="link" type="text"
+        /></label>
+        <label class="main-block__input-form" for="comment"
+          >Оставьте комментарий<br /><input id="comment" type="text"
+        /></label>
+        <button id="button" onclick="sendComment()">Отправить</button>
+      </div>
+      <div class="main-block__chat">
+        <h2>Чат</h2>
+    </main>
+    <script src="week13.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+h1 {
+  font-size: 2rem;
+  color: rgb(17, 27, 215);
+  text-align: center;
+  padding: 2vw;
+}
+h2 {
+  font-size: 1rem;
+  color: rgb(17, 27, 215);
+  text-align: center;
+}
+.main-page {
+  background-color: black;
+}
+.main-block {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  color: white;
+}
+.main-block__comment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+}
+.main-block__chat {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin-left: 5vw;
+}
+.main-block__input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-block__input-form > input {
+  border: 2px dashed rgb(17, 27, 215);
+  background-color: black;
+  color: white;
+  width: 40vw;
+  padding: 10px;
+  margin: 10px;
+}
+.main-block__checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40vw;
+  padding: 10px;
+  margin: 10px;
+}
+.main-block__checkbox > label {
+  margin: 20px;
+}
+.main-block__checkbox-form {
+  border: 2px dashed rgb(17, 27, 215);
+  padding: 10px;
+  margin: 10px;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px dashed rgb(17, 27, 215);
+}
+.newComment {
+  margin-bottom: 15px;
+}
+img {
+  width: 50px;
+  margin: 15px;
+}
+#comment {
+  height: 100px;
+}
+button {
+  margin: 20px;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(17, 27, 215);
+  color: white;
+}
+@media screen and (max-width: 950px) {
+  .main-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-block__comment-form {
+    width: 80vw;
+  }
+  .main-block__input-form {
+    width: 70vw;
+  }
+  .main-block__checkbox {
+    width: 40vw;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  .main-block__chat {
+    width: 70vw;
+    margin-left: 0;
+  }
+}
